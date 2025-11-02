@@ -1,0 +1,32 @@
+If you're experiencing issues with the "Guess the Capital" application on your local computer, let's try to troubleshoot it:
+
+
+
+
+###
+Check Local Server Setup:
+
+Ensure you have Python installed on your local machine. You can verify this by running python --version or python3 --version in your terminal or command prompt.
+Navigate to the directory where your application files are located using the terminal or command prompt.
+Start the Local Server:
+
+Run the command python -m http.server or python3 -m http.server in the terminal. This will start a local server on port 8000 by default.
+Access the Application:
+
+Open your web browser and go to http://localhost:8000. This should display your application.
+###
+
+
+
+
+Inspect for Errors:
+
+If the options are still not showing, open the Developer Tools in your browser (usually accessible by right-clicking on the page and selecting "Inspect" or pressing Ctrl+Shift+I).
+Check the "Console" tab for any error messages that might indicate what's going wrong.
+Verify File Integrity:
+
+Ensure all necessary files are present in the directory. Double-check your HTML and JavaScript files for any missing or incorrect references.
+Clear Cache and Refresh:
+
+Clear your browser cache and refresh the page to ensure you're loading the most recent version of your files.
+If these steps don't resolve the issue, please let me know any specific error messages or behaviors you're observing, and we can troubleshoot further.
